@@ -1,0 +1,9 @@
+# Ignore datasets
+COVID-19_Radiography_Dataset/
+covid_normal_split/
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
