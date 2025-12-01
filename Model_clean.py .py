@@ -1,4 +1,4 @@
-# %%
+# 
 # Imports
 import numpy as np
 import seaborn as sns
@@ -30,15 +30,4 @@ print(len(normal_images_arr))
 covid_images_path = "COVID-19_Radiography_Dataset/COVID/images/*.png"
 covid_images_arr = import_images(covid_images_path)
 print(len(covid_images_arr))
-
-
-# %%
-# Imports
-
-import tensorflow as tf
-from tensorflow.keras import layers, models
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
-
-
 
